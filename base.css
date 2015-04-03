@@ -1,0 +1,29 @@
+body {
+  font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+article {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+}
+
+article p {
+  line-height: 1.5em;
+}
+
+article h1 {
+  font-size: 2em;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
