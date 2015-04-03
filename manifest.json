@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "sv-chrome",
-  "description": "sv-chrome",
-  "version": "0.2",
+  "name": "SV for Chrome",
+  "description": "スピリットベンチャー宣言 for Chrome",
+  "version": "0.3",
 
   "chrome_url_overrides": {
     "newtab": "index.html"
